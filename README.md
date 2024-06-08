@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+# BikeWatch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BikeWatch is a web application based on React that aims to help prevent bike thefts by providing a heatmap of previous thefts. Users can visualize areas with a high frequency of bike thefts, allowing them to take preventive measures and make informed decisions about bike storage and security.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Heatmap Visualization**: BikeWatch generates a heatmap based on historical data of bike thefts, highlighting areas where thefts have occurred frequently.
 
-### `npm start`
+- **User-Friendly Interface**: The web application offers an intuitive and easy-to-use interface, allowing users to interact with the heatmap and explore detailed information about bike thefts in specific locations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Data Integration**: BikeWatch integrates with databases or APIs that provide information about reported bike theft incidents. This data is used to generate the heatmap and provide up-to-date information to users.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Customization Options**: Users can customize the heatmap display by adjusting parameters such as time range, geographic area, and heatmap intensity, providing a personalized experience based on their preferences.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Alert System**: BikeWatch may include an alert system to notify users about recent bike thefts in their vicinity or areas of interest, allowing them to take immediate action and enhance bike security measures.
